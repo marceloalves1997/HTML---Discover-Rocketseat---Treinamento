@@ -6,10 +6,27 @@
 
 .container{
     max-width: 1080px;
+    margin: 0% auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 header{
     background-color: black;
     width: 100%;
+    padding: 10px;
 
+}
+.sociais{
+    width: 25%;
+}
+
+.Logo{
+    width: 50%;
+
+}
+
+.menu{
+    width: 50%;
 }

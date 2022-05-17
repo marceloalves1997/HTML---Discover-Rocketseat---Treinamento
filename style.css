@@ -1,7 +1,6 @@
 *{
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
 }
 
 body {
@@ -32,7 +31,7 @@ p.large {
 }
 
 form {
-    
+   
 }
 
 label {
@@ -42,20 +41,36 @@ label {
 input {
     background: #f2f2f2;
     border-radius: 10px;
-    width: 40%;
+    width: 150%;
+    height: 50px;
+    border: none;
+    text-indent: 16px;
+}
+
+input:focus {
+    background: #EDBBFB;
+    border: none;
+    outline-width: 0;
+}
+
+button {
+    background: #734FB4;
+    color: white;
+    border-radius: 10px;
+    width: 150%;
     height: 50px;
     border: none;
 }
 
-input :focus {
-    background: #EDBBFB;
-
-}
+.flex {
+    display: flex;
+    justify-content: space-between;
+  }
 
 .login {
     background: #fff;
     border-radius: 20px;
-    max-width: 90%;
+    max-width: 50%;
     height: 675px;
     margin: 0 auto;
     margin-top: 5%;
@@ -71,4 +86,10 @@ input :focus {
     width: 92px;
     height: 92px;
     margin-bottom: 24px;
+}
+
+.imagem2 {
+    height: 675px;
+    width: 443px;
+    margin-left: 12%;
 }
